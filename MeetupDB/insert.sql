@@ -1,4 +1,5 @@
 USE MeetupDB;
+
 insert into Meetups (Start, Location, Topic, Description) values ('2016-05-10 10:00', 'New York', 'charity concert', 'This is a description');
 insert into Meetups (Start, Location, Topic, Description) values ('2017-06-11 12:30', 'Paris', 'christmas party', 'Yeaah parteey!');
 insert into Meetups (Start, Location, Topic, Description) values ('2018-07-12 14:40', 'Los Angeles', 'gold digging', 'Let`s dig some gold!');
