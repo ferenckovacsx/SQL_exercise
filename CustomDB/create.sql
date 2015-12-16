@@ -34,7 +34,7 @@ CREATE TABLE MoviesDB.Films (
     DirectorsID VARCHAR(200) NOT NULL,
     GenreID VARCHAR(200) NOT NULL,
     PRIMARY KEY(ID),
-      FOREIGN KEY (ActorsID) REFERENCES Actors(ID),
-	    FOREIGN KEY (DirectorsID) REFERENCES Directors(ID),
-	    FOREIGN KEY (GenreID) REFERENCES Genres(ID)
+    	FOREIGN KEY (ActorsID) REFERENCES Actors(ID),
+	FOREIGN KEY (DirectorsID) REFERENCES Directors(ID),
+	FOREIGN KEY (GenreID) REFERENCES Genres(ID)
 );
